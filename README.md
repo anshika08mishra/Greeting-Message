@@ -1,28 +1,28 @@
 # Greeting-Message
 Greeting Message Website
 
-#Description
+**Description**
 
 This is a simple web application that takes a user's name as input and displays a personalized greeting message. The project is built using basic web technologies and demonstrates simple user interaction using JavaScript.
 
-#Features
+**Features**
 
 - Takes user input (name)
 - Displays a personalized greeting message
 - Simple and clean user interface
 - Beginner-friendly project
 
-#Technologies Used
+**Technologies Used**
 
 - HTML
 - CSS
 - JavaScript
 
 
-#Project Purpose
+**Project Purpose**
 
 This project was created as a beginner practice project to understand basic concepts of HTML, CSS, and JavaScript such as user input handling and DOM manipulation.
 
-#Author
+**Author**
 
 Anshika Mishra
