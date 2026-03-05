@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greet & Blast | Personalized Celebration</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/1169/1169905.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;700&family=Noto+Sans+Gurmukhi:wght@400;700&family=Noto+Sans+Kannada:wght@400;700&family=Noto+Sans+Tamil:wght@400;700&family=Noto+Sans+Telugu:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css">
+    <!-- Canvas Confetti Library -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+
+<body>
+    <canvas id="confetti-canvas"></canvas>
+
+    <div class="container">
+        <!-- Input Section -->
+        <div id="input-section" class="card">
+            <h1>Greet Message</h1>
+            <p>Welcome to a moment of joy. Please share your name with us.</p>
+            <div class="input-group">
+                <input type="text" id="name-input" placeholder="Enter your name...">
+            </div>
+            <button id="start-btn">See the surprise! 🎁</button>
+        </div>
+
+        <!-- Greet Section -->
+        <div id="greet-section" class="greet-section">
+            <h2 class="greeting-text">Hello, <span id="display-name" class="name-highlight">Guest</span>!</h2>
+            <button id="reset-btn">Try! Again</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
