@@ -18,10 +18,12 @@ This is a simple web application that takes a user's name as input and displays 
 - CSS
 - JavaScript
 
-
 **Project Purpose**
 
 This project was created as a beginner practice project to understand basic concepts of HTML, CSS, and JavaScript such as user input handling and DOM manipulation.
+
+**URL**
+https://anshika08mishra.github.io/Greeting-Message/
 
 **Author**
 
